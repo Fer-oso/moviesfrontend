@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.contenedor-general {
+  margin: 0, 0, 0, 0;
+  width: 100%;
+  box-sizing: inherit;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-cards {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 630px;
+  margin: auto;
+}
+
+.tarjeta-personaje {
+  width: 190px;
+  margin: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease;
+}
+
+  .tarjeta-personaje:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+  }
+
+.imagen-personaje {
+  width: 100%;
+  height: 20rem;
+}
+
+@media (min-width: 1024px) {
+  .contenedor-cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .tarjeta-personaje {
+    width: 180px;
+    margin: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+  }
+
+  .tarjeta-personaje:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+  }
+
+  .imagen-personaje {
+    width: 100%;
+    height: 15rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contenedor-cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .tarjeta-personaje {
+    width: 210px;
+    margin: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+  }
+
+  .tarjeta-personaje:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+  }
+
+  .imagen-personaje {
+    width: 100%;
+    height: 15rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .contenedor-cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+  }
+
+  .tarjeta-personaje {
+    width: 100%;
+    margin: 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+  }
+
+  .tarjeta-personaje:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+  }
+
+  .imagen-personaje {
+    width: 250px;
+    height: 20rem;
+    margin: auto;
+  }
+}
